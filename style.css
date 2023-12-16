@@ -81,6 +81,46 @@ html{
 .secondChild1{
   font-size: 3em;
 }
+.box4Natalia
+{
+  background-color: green;
+
+  color: black
+}
+.box4Natalia h2
+{
+  text-align: center;
+  font-size: 3rem;
+  margin: 0px 10px 20px 10px;
+  border: 1px solid gold;
+  box-shadow: 5px 5px 5px gray;
+
+}
+.box4Natalia input, .box4Natalia label
+{
+  padding:5px;
+  margin: 10px
+}
+.box4Natalia label, i{
+  background-color: inherit;
+  padding: 10px;
+  font-size: 2rem;
+}
+.box4Natalia button{
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid gold;
+  box-shadow: 5px 5px 5px gray;
+  cursor: pointer;
+}
+.box4Natalia button:hover
+{
+  background-color: green;
+}
+/* .dreams
+{margin:20px;
+  float:right;
+} */
 
 
 /* CSS rules - @media queries */
@@ -94,6 +134,7 @@ html{
   div {
     display: none;
   }
+
 }
 /* 1 rem = 16px domyslna wysokosc fontu */
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -115,10 +156,9 @@ html{
     width: 90%;
     margin: 0 auto;
   }
+  .firstLine, .box3, .box5
+  {display: none;}
 
-  .box5 {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -233,3 +273,4 @@ html{
     align-items: center;
   }
 }
+
