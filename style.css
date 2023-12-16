@@ -5,6 +5,10 @@
   background-color: khaki;
 }
 
+.error_message {
+  display:none;
+  }
+
 .box {
   width: 750px;
   height: 500px;
@@ -13,6 +17,43 @@
   background-color: yellow;
   margin: 10px;
   display: inline-block;
+}
+.title {
+  font-size: 3rem;
+  text-align: center !important;
+  width: 100% !important;
+  /* background-color: red !important; */
+  background-image: radial-gradient(circle, #ffffff, #f8d1fc, #ff97d2, #ff5280, #ff0303);
+  height: 50px;
+}
+
+
+/* FOOTER */
+.footer {
+  font-size: 10px;
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  display: flex;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-reddit {
+  background: #ff5700;
+  color: white;
 }
 
 /* p {
@@ -74,7 +115,16 @@ html{
   .longText,
   div {
     display: none;
+ 
   }
+  .error_message {
+    display:block;
+    font-size: 2rem;
+    background-color: lightgreen;
+    }
+  
+
+ 
 }
 /* 1 rem = 16px domyslna wysokosc fontu */
 @media screen and (min-width: 576px) and (max-width: 767px) {
