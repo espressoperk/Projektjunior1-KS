@@ -2,7 +2,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  background-color: khaki;
+  /* background-color: khaki; */
 }
 
 .box {
@@ -32,6 +32,25 @@ p:first-child {
 div {
   background-color: darkgoldenrod;
 }
+
+
+.box5 {
+  background-color: rgb(249, 118, 118);
+  /* max-width: 860px; */
+  align-items: center;
+}
+
+.box5 p {
+  font-size: 16px;
+  background-color: rgb(90, 146, 90);
+  max-width: 860px;
+  align-items: center;
+}
+
+.submit:hover {
+  font-weight: bold;
+}
+
 
 /* Jednostki względne  */
 
@@ -96,6 +115,10 @@ html{
     width: 90%;
     margin: 0 auto;
   }
+
+  .box5 {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -108,6 +131,19 @@ html{
   .box {
     border-color: red;
     background-color: greenyellow;
+  }
+
+  .box5 {
+    background-color: rgb(249, 118, 118);
+  /* max-width: 860px; */
+  align-items: center;
+  }
+
+  .box5 p {
+    font-size: 16px;
+    background-color: rgb(90, 146, 90);
+    max-width: 860px;
+    align-items: center;
   }
 }
 
@@ -131,6 +167,18 @@ html{
 
   .box3 {
     width: 100%;
+  }
+  .box5 {
+    background-color: rgb(249, 118, 118);
+  /* max-width: 860px; */
+  align-items: center;
+  }
+
+  .box5 p {
+    font-size: 16px;
+    background-color: rgb(90, 146, 90);
+    max-width: 860px;
+    align-items: center;
   }
 }
 
@@ -171,5 +219,17 @@ html{
       margin: 0;
       min-width: 50%;
     }
+  }
+  .box5 {
+    background-color: rgb(249, 118, 118);
+  /* max-width: 860px; */
+  align-items: center;
+  }
+
+  .box5 p {
+    font-size: 16px;
+    background-color: rgb(90, 146, 90);
+    max-width: 860px;
+    align-items: center;
   }
 }
