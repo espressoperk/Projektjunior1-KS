@@ -9,6 +9,7 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/cc51bc3d4f.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <p class="title">Wesołych świąt</p>
@@ -60,11 +61,51 @@
         <p>RWDbox3</p>
       </div>
       <div class="lastLine">
-        <div class="box">
-          <p>RWDbox4</p>
+        <div class="box box4Natalia">
+          <p><h2>Lista prezentów</h2>
+            <label for="name"><i class="fa-solid fa-child" style="color: #000000;"></i>Imię dziecka:</label>
+            <br>
+<input type="text" id="name" name="name" required/>
+<br>
+<label for="gift"><i class="fa-solid fa-gift" style="color: #000000;"></i>Prezent:</label>
+<br>
+<input type="text" id="gift"required/>
+<br>
+<button><i class="fa-solid fa-sleigh" style="color: #000000;"></i>Wyślij życzenie</button>
+<!-- <div class="dreams">xxx</div> -->
+          </p>
         </div>
-        <div class="box">
-          <p>RWDbox5</p>
+        <div class="box box5">
+          <p>Formularz świąteczny</p>
+          <form>
+            <label for="first-name">Wpisz imię:</label><br>
+            <input type="text" id="first-name" name="first-name"><br>
+            
+            <label for="last-name">Wpisz nazwisko:</label><br>
+            <input type="text" id="last-name" name="last-name"><br>
+           
+            <label for="question">Czy lubisz święta?</label><br>
+              <input type="radio" id="yes" name="yes-or-no" value="yes">
+              <label for="yes">Tak</label><br>
+              <input type="radio" id="no" name="yes-or-no" value="no">
+              <label for="no">Nie</label><br>
+
+            <label for="decor">Jaka jest Twoja ulubiona dekoracja świąteczna?</label><br>
+            <input type="text" name="decor" id="decor"><br>
+
+            <label for="qua">Gdzie preferujesz spędzać święta?</label><br>
+              <input type="radio" id="home" name="preference" value="home">
+              <label for="home">W domu</label><br>
+              <input type="radio" id="away" name="preference" value="away">
+              <label for="no">Na wyjeździe</label><br>
+              <input type="radio" id="family" name="preference" value="family">
+              <label for="yes">U rodziny</label><br>
+              <input type="radio" id="no" name="preference" value="no">
+              <label for="no">Nie obchodzę świąt</label><br>
+              
+
+            <input type="submit" value="Submit" class="submit">
+          </form>
         </div>
       </div>
     </div>

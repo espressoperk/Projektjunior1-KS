@@ -2,7 +2,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  background-color: khaki;
+  /* background-color: khaki; */
 }
 
 .error_message {
@@ -74,6 +74,25 @@ div {
   background-color: darkgoldenrod;
 }
 
+
+.box5 {
+  background-color: rgb(249, 118, 118);
+  /* max-width: 860px; */
+  align-items: center;
+}
+
+.box5 p {
+  font-size: 16px;
+  background-color: rgb(90, 146, 90);
+  max-width: 860px;
+  align-items: center;
+}
+
+.submit:hover {
+  font-weight: bold;
+}
+
+
 /* Jednostki względne  */
 
 .relativeFonts{
@@ -103,6 +122,46 @@ html{
 .secondChild1{
   font-size: 3em;
 }
+.box4Natalia
+{
+  background-color: green;
+
+  color: black
+}
+.box4Natalia h2
+{
+  text-align: center;
+  font-size: 3rem;
+  margin: 0px 10px 20px 10px;
+  border: 1px solid gold;
+  box-shadow: 5px 5px 5px gray;
+
+}
+.box4Natalia input, .box4Natalia label
+{
+  padding:5px;
+  margin: 10px
+}
+.box4Natalia label, i{
+  background-color: inherit;
+  padding: 10px;
+  font-size: 2rem;
+}
+.box4Natalia button{
+  margin: 20px;
+  padding: 5px;
+  border: 1px solid gold;
+  box-shadow: 5px 5px 5px gray;
+  cursor: pointer;
+}
+.box4Natalia button:hover
+{
+  background-color: green;
+}
+/* .dreams
+{margin:20px;
+  float:right;
+} */
 
 
 /* CSS rules - @media queries */
@@ -122,9 +181,6 @@ html{
     font-size: 2rem;
     background-color: lightgreen;
     }
-  
-
- 
 }
 /* 1 rem = 16px domyslna wysokosc fontu */
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -146,6 +202,9 @@ html{
     width: 90%;
     margin: 0 auto;
   }
+  .firstLine, .box3, .box5
+  {display: none;}
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -158,6 +217,19 @@ html{
   .box {
     border-color: red;
     background-color: greenyellow;
+  }
+
+  .box5 {
+    background-color: rgb(249, 118, 118);
+  /* max-width: 860px; */
+  align-items: center;
+  }
+
+  .box5 p {
+    font-size: 16px;
+    background-color: rgb(90, 146, 90);
+    max-width: 860px;
+    align-items: center;
   }
 }
 
@@ -181,6 +253,18 @@ html{
 
   .box3 {
     width: 100%;
+  }
+  .box5 {
+    background-color: rgb(249, 118, 118);
+  /* max-width: 860px; */
+  align-items: center;
+  }
+
+  .box5 p {
+    font-size: 16px;
+    background-color: rgb(90, 146, 90);
+    max-width: 860px;
+    align-items: center;
   }
 }
 
@@ -222,4 +306,17 @@ html{
       min-width: 50%;
     }
   }
+  .box5 {
+    background-color: rgb(249, 118, 118);
+  /* max-width: 860px; */
+  align-items: center;
+  }
+
+  .box5 p {
+    font-size: 16px;
+    background-color: rgb(90, 146, 90);
+    max-width: 860px;
+    align-items: center;
+  }
 }
+
